@@ -14,6 +14,7 @@ License: GPL
 
 #Source taken from https://github.com/wget/realtek-r8152-linux/archive/refs/tags/v2.18.1.20240701.tar.gz
 Source0: %{driver_name}-alt-%{version}.tar.gz
+Patch0: fix-conditional-check-for-kernel-version.patch
 
 BuildRequires: gcc
 BuildRequires: kernel-devel
