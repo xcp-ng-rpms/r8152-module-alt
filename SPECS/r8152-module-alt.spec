@@ -7,7 +7,7 @@
 %endif
 
 Summary: %{vendor_name} %{driver_name} device drivers
-Name: %{driver_name}-module
+Name: %{driver_name}-module-alt
 Version: 2.18.1
 Release: 1%{?dist}
 License: GPL
