@@ -10,6 +10,7 @@ It is because the kernel headers provided in build env are for 4.19.0 kernel,
  even though system uses later patch version.
 This commit lowers the precision of the conditional check for kernel version to 4.19.0.
 
+Signed-off-by: Vasyl Solovei <iam@miltador.pro>
 diff --git a/compatibility.h b/compatibility.h
 index b33c894..d756a18 100644
 --- a/compatibility.h

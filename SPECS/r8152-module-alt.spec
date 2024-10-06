@@ -54,5 +54,5 @@ find %{buildroot}/lib/modules/%{kernel_version} -name "*.ko" -type f | xargs chm
 /lib/modules/%{kernel_version}/*/*.ko
 
 %changelog
-* Sat Oct 05 2024 xxxx <xxx@xxx.com> - 2.18.1-1
+* Sat Oct 05 2024 Vasyl Solovei <iam@miltador.pro> - 2.18.1-1
 - Adding Realtek driver r8152 v2.18.1
